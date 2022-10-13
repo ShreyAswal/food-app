@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* list-style: none; */
+}
+
+
+/* Headings */
+
+h1 {
+    font-size: 2rem;
+}
+
+h4{
+    margin: 80px 50px 20px;
+    color: #3E3E3E;
+}
+
+/* Dropdown */
+.drop-div{
+    display: flex;
+    margin: 0 50px;
+    background-color: rgba(245, 245, 245, 50%);
+    box-shadow: 0 10px 10px 0 #E5E5E5;
+    padding: 30px 50px 20px;
+    border-radius: 0 0 15px 15px;
+    width: 300px;
+}
+
+.not-active{
+    display: none;
+}
+
+.drop-div li{
+    margin: 0 auto 30px;
+    font-weight: 500;
+}
+
+.drop-div li:hover{
+    margin: 0 auto 30px;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
+
+/* Location section */
+
+.head-div{
+    display: flex;
+    align-items: center;
+    margin: 50px 50px 20px;
+}
+
+.drop-icon{
+    height: 8px;
+    width: auto;
+    margin: auto 20px;
+}
+
+hr{
+    border: 3px solid;
+    color: #DDDDDD;
+    margin: 20px 50px 0;
+    border-radius: 10px;
+}
+
+.card-container{
+    display: flex;
+    margin: auto 50px;
+}
