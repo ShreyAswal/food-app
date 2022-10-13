@@ -24,15 +24,19 @@ h4{
 .drop-div{
     display: flex;
     margin: 0 50px;
+    justify-content: space-evenly;
     background-color: rgba(245, 245, 245, 50%);
     box-shadow: 0 10px 10px 0 #E5E5E5;
     padding: 30px 50px 20px;
     border-radius: 0 0 15px 15px;
-    width: 300px;
 }
 
 .not-active{
     display: none;
+}
+
+.drop-div ul{
+    width: 300px;
 }
 
 .drop-div li{
